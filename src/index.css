@@ -11,6 +11,13 @@
   -webkit-text-size-adjust: 100%;
 
   --primary: #00838F;
+  /* size font */
+  --xxxl: 28px;
+  --xxl: 24px;
+  --xl: 18px;
+  --l: 16px;
+  --m: 14px;
+  --s: 12px;
 }
 
 *{
