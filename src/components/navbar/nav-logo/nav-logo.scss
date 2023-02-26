@@ -1,0 +1,22 @@
+.nav__logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  img{
+    width: 64px;
+    @media screen and (max-width: 768px) {
+      width: 50px;
+    }
+    @media screen and (max-width: 320px) {
+      width: 30px;
+
+    }
+  }
+
+  h2{
+    color: #00838F;
+  }
+
+
+}

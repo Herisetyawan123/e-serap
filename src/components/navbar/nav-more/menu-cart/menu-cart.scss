@@ -1,0 +1,15 @@
+.nav__chart{
+  height: 50px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  &:after{
+    right: 0;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #ececec;
+  }
+}
