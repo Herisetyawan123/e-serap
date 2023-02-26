@@ -1,14 +1,12 @@
 import "./grid-item.scss"
 
-interface Props{
-    img: string,
-    label: string,
-    to?: string
-}
 
-const GridItem = ({ img, label, to }:Props ) => {
+
+const GridItem = ({ children }: { children: React.ReactNode } ) => {
     return (
-        <></>
+        <div className={"grid__item"}>
+            { children }
+        </div>
     )
 }
 

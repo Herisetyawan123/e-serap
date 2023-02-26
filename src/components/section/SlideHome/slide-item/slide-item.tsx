@@ -12,7 +12,7 @@ interface Props{
 
 const SlideItem = ({ title, paragraph, position, bg, logo, style } : Props ) => {
     const stl = {
-        transform: `translateX(${position}%)`,
+        transform: `translateX(${0}%)`,
         backgroundImage: `url(${bg})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',

@@ -3,12 +3,12 @@ import React from "react";
 
 interface Props{
     children: React.ReactNode,
-    className: string
+    className?: string
 }
 
 const GridContainer= ({ children, className }: Props) => {
     return (
-        <div className={`  ${className}`}>
+        <div className={`grid__category  ${className}`}>
             { children }
         </div>
     );
