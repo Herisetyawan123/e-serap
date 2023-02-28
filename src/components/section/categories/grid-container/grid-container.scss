@@ -2,4 +2,27 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 60px;
+  justify-content: space-evenly;
+  justify-content: space-evenly;
+
+  @media screen and (max-width: 1300px) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+  }
+
+  @media screen and (max-width: 980px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 750px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+  }
+
+  @media screen and (max-width: 375px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
